@@ -1,6 +1,6 @@
 :root{
   --primary: #fff;
-  --bg-color: rgb(236, 49, 211);
+  --bg-color: white;
   --bg-envelope-color: #f5edd1;
   --envelope-tab: #ecdeb8;
   --envelope-cover: #e6cfa7;
@@ -16,6 +16,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url("love_celebration-1600x1200.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   height: 100vh;
@@ -70,7 +73,7 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--txt-color);
   text-align: left;
-  font-size: 5px;
+  font-size: 7px;
 }
 .heart {
   position: fixed;
